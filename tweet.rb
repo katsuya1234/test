@@ -1,9 +1,8 @@
 
-
 require 'rubygems'
 require 'twitter'
  
-auth = Twitter::HTTPAuth.new('katsuya1234', 'uenoyama');
+auth = Twitter::HTTPAuth.new('hoge', 'hoge');
 base = Twitter::Base.new(auth)
  
 guilty = base.friend_ids - base.follower_ids
